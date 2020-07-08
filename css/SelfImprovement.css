@@ -1,0 +1,77 @@
+h1, #footer {
+    color: #fbeec1;
+}
+
+.imgtile:hover {
+    opacity: 60%;
+}
+
+.car-img {
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    opacity: 90%;
+}
+
+img[src="imgs/woman-running1.jpg"]{
+    border-radius: 20px;
+}
+
+img[src="imgs/man-thinking1.jpg"]{
+    border-radius: 20px;
+}
+
+img[src="imgs/chakra-meditation1.jpg"]{
+    border-radius: 20px;
+}
+
+img[src="imgs/toriJapaneseShrine1.jpg"]{
+    border-bottom: none;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+img {
+    border: solid 2px;
+}
+#logo {
+    margin-right: 0px;
+}
+
+#bodyNav {
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+footer {
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+#aboutFooter {
+    border-radius: 0px;
+}
+
+.faqq {
+    color: #fbeec1;
+}
+
+.faqq:hover {
+    color: #babab8;
+}
+
+.faq-body{
+    background-color: #fbeec1;
+}
+
+.card-header:hover {
+    opacity: 90%;
+}
+
+i:hover {
+    color:#292b2c;
+}
+
+#newsletter {
+    color: #0275d8 ;
+    margin: auto 0;
+}
