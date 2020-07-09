@@ -2,6 +2,18 @@ h1, #footer {
     color: #fbeec1;
 }
 
+body {
+    height: 100%;
+  }
+  
+#page-content {
+    flex: 1 0 auto;
+}
+
+#sticky-footer {
+    flex-shrink: none;
+}
+
 .imgtile:hover {
     opacity: 60%;
 }
@@ -45,10 +57,6 @@ img {
 footer {
     border-top-right-radius: 20px;
     border-top-left-radius: 20px;
-}
-
-#aboutFooter {
-    border-radius: 0px;
 }
 
 .faqq {
