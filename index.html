@@ -10,7 +10,8 @@
         <link rel="stylesheet" href="css/SelfImprovement.css">
         <script src="https://kit.fontawesome.com/4a4987fc7a.js" crossorigin="anonymous"></script>
     </head>
-    <body>
+    <body class="d-flex flex-column">
+        <div id="page-content">
         
         
             <header class="container">
@@ -37,7 +38,7 @@
                     </div>
                 </nav> 
           </header>
-    
+        
         <div class="container">            
                 <div class="d-none d-md-inline-block">
 
@@ -70,7 +71,7 @@
 
         <div class="container">
                 <main>
-                    <h3 class="d-none d-md-inline-block text-center">Welcome to The Self-Improvement Experience. Each week you'll see new listings of books, products, 
+                    <h3 class="d-none d-md-inline-block text-center">Welcome to The Self-Improvement Experience. Each week you'll new listings of books, products, 
                         and apps recommended by users and experts. Click on any of the categories below
                         and find resources to improve your life!</h3>                    
                     <h3 class="d-md-none text-center">The Self-Improvement Experience</h3>
@@ -104,17 +105,17 @@
         <br>      
           
         <br>
-
+        
         <div class="container">
             <div class="row">
-                <div class="col">
+                <div class="col-md">
                 <a href="https://www.facebook.com/"><i class="fab fa-facebook fa-3x m-1"></i></a>
                 <a href="https://www.twitter.com/"><i class="fab fa-twitter fa-3x m-1" ></i></a>
                 <a href="https://www.instagram.com/"><i class="fab fa-instagram fa-3x m-1"></i></a>
                 <a href="https://www.linkedin.com/"><i class="fab fa-linkedin-in fa-3x m-1"></i></a>
                 </div>
 
-                <div class="col text-right" id="newsletter">                    
+                <div class="col-md-4" id="newsletter">                    
                     <a data-toggle="modal" href="#myModal"><i class="far fa-newspaper fa-3x m-1"></i>Click here to Sign Up for our Newsletter</a>
                 </div>
                     <div class="modal fade" tabindex="-1" role="dialog" id="myModal">
@@ -140,8 +141,9 @@
                     </div>
             </div>
         </div>
+        </div>
         <br>
-        <footer class="container bg-dark text-light text-center">
+        <footer class="container bg-dark text-light text-center" id="sticky-footer">
             <p id=footer>Designed by Robert Berge. For demonstration purposes only.</p>
         </footer>
     </body>
