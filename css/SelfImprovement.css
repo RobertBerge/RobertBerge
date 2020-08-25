@@ -3,16 +3,13 @@ h1, #footer {
 }
 
 body {
-    min-height: 100vh;
+    height: 100%;
   }
   
 #page-content {
-    flex-grow: 1;
+    flex-grow: 1 0 auto;
 }
 
-#sticky-footer {
-    flex-shrink: 0;
-}
 
 .imgtile:hover {
     opacity: 60%;
@@ -49,16 +46,6 @@ img {
     margin-right: 0px;
 }
 
-#bodyNav {
-    border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px;
-}
-
-footer {
-    border-top-right-radius: 20px;
-    border-top-left-radius: 20px;
-}
-
 .faqq {
     color: #fbeec1;
 }
@@ -80,5 +67,10 @@ i:hover {
 }
 
 #newsletter {
-    color: #0275d8;
+    color: #0275d8 ;
+}
+
+
+#contact-footer {
+    margin-top: 11em;
 }
